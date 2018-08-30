@@ -29,7 +29,7 @@ Requirements:
    
                 an Android smartphone with camera embeded
    
-                Android API start from 15
+                The Android API starts from 15
 
 
 This project is a part fulfillment of the requirements of the Degree of Master of Science at the University of Glasgow.
