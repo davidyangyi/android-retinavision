@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.retinavision.app.retinavisionapp.SettingsActivity">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/settings_gridlayout"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="Retina Service Url:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/settings_serviceurl"/>
+        <TextView
+                android:text="Echo Service Url:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/settings_echourl"/>
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/settings_gridlayout"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="Restore Default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/settings_default"/>
+        <Button
+                android:text="Save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/settings_save"/>
+        <RelativeLayout
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <View
+                    android:id="@+id/settings_struct"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerHorizontal="true"/>
+            <Button
+                    android:text="Back"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignRight="@+id/settings_struct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/settings_goback"/>
+            <Button
+                    android:text="Exit"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignLeft="@+id/settings_struct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/settings_exit"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
