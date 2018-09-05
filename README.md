@@ -7,7 +7,7 @@ The RetinaVisionApp foler is the application for Android and the apk is in the r
 
 The RetinaVisionWeb folder is the server includes the software retina which can running on desktop.
 
-The software retina is developed and authorized by Piotr Ozimek.
+The software retina is provided and authorized by Piotr Ozimek.
 
 
 Requirements:
