@@ -1,9 +1,12 @@
 # android-retinavision
 An Android application for image data collecting and managing with a software retina on desktop.
 
+The software retina is for deep learning purpose, developed by the CVAS team at the University of Glasgow
+
 The RetinaVisionApp foler is the application for Android and the apk is in the release folder.
 
-The RetinaVisionWeb folder is the server includes the software retina which can running on desktop. 
+The RetinaVisionWeb folder is the server includes the software retina which can running on desktop.
+
 The software retina is developed and authorized by Piotr Ozimek.
 
 
@@ -31,5 +34,4 @@ Requirements:
    
                 The Android API starts from 15
 
-
-This project is a part fulfillment of the requirements of the Degree of Master of Science at the University of Glasgow.
+Install instructions are in the documentation
